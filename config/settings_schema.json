@@ -34,6 +34,51 @@
     ]
   },
   {
+    "name": "Header",
+    "settings": [
+      {
+        "type": "color",
+        "id": "header-background-color",
+        "label": "Header Background Color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "header-top-menu-color",
+        "label": "Header Top Menu Color",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "header-top-menu-color-hover",
+        "label": "Header Top Menu Color - Hover",
+        "default": "#0000FF"
+      },
+      {
+        "type": "color",
+        "id": "header-icon-color",
+        "label": "Header Icon Color",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "header-icon-color-hover",
+        "label": "Header Icon Color - Hover",
+        "default": "#0000FF"
+      },
+      {
+        "type": "range",
+        "id": "header-font-size",
+        "label": "Header Menu - Font Size",
+        "min": 16,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "default": 16
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.colors.name",
     "settings": [
       {
@@ -155,7 +200,7 @@
         "type": "range",
         "id": "page_width",
         "min": 1000,
-        "max": 1600,
+        "max": 1900,
         "step": 100,
         "default": 1200,
         "unit": "px",
@@ -1463,6 +1508,23 @@
         "id": "cart_color_scheme",
         "label": "t:sections.all.colors.label",
         "default": "background-1"
+      }
+    ]
+  },
+  {
+    "name": "Custom Color",
+    "settings": [
+      {
+        "type": "color",
+        "id": "color_background",
+        "label": "Background Color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "body_text",
+        "label": "Text Color",
+        "default": "#000000"
       }
     ]
   }
