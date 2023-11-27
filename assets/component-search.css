@@ -1,5 +1,35 @@
+.search-modal {
+  top: 86px;
+}
+
+.search-modal__content {
+  background-color: #e0e0e0;
+}
+
+form.search-modal__form {
+  padding: 0 6rem;
+  box-sizing: border-box;
+}
+
 .search__input.field__input {
-  padding-right: 9.8rem;
+  background-color: #ffffff;
+  padding: 0.8rem 9.8rem 0.8rem 2rem;
+  color: #0b1647;
+  border-radius: 24px;
+}
+
+.search .field:after {
+  display: none;
+}
+
+.search .field__input:focus ~ .field__label,
+.search .field__input:not(:placeholder-shown) ~ .field__label,
+.search .field__input:-webkit-autofill ~ .field__label {
+  display: none;
+}
+
+.search-modal__close-button.link {
+  display: none;
 }
 
 .search__button {

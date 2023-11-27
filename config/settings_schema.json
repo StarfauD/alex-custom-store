@@ -8,6 +8,23 @@
     "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
+    "name": "Announcement Bar",
+    "settings": [
+      {
+        "type": "color",
+        "id": "announcement_bar_background_color",
+        "label": "Background Color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "announcement_bar_text_color",
+        "label": "Text Color",
+        "default": "#000000"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.logo.name",
     "settings": [
       {
@@ -70,6 +87,34 @@
         "type": "range",
         "id": "header-font-size",
         "label": "Header Menu - Font Size",
+        "min": 16,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "default": 16
+      },
+      {
+        "type": "color",
+        "id": "header-drop-down-menu-background",
+        "label": "Header Drop-Down Menu - Background",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "header-drop-down-menu-color",
+        "label": "Header Drop-Down Menu - Color",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "header-drop-down-menu-color-hover",
+        "label": "Header Drop-Down Menu - Color Hover",
+        "default": "#000000"
+      },
+      {
+        "type": "range",
+        "id": "header-drop-down-menu-font-size",
+        "label": "Header Drop-Down Menu - Font Size",
         "min": 16,
         "max": 100,
         "step": 1,

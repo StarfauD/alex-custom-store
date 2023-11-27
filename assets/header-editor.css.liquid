@@ -25,11 +25,11 @@
     color: {{ settings.header-icon-color-hover }};
 }
 
-.header__icon .icon-cart {
+.header__icon--cart {
     color: {{ settings.header-icon-color }};
 }
 
-.header__icon .icon-cart:hover {
+.header__icon--cart:hover {
     color: {{ settings.header-icon-color-hover }};
 }
 
@@ -49,4 +49,20 @@
 
 .search__input {
     --color-foreground: 0;
+}
+
+.header__submenu {
+    background-color: {{ settings.header-drop-down-menu-background }}
+}
+
+.header__submenu .header__menu-item {
+    color: {{ settings.header-drop-down-menu-color }};
+}
+
+.header__submenu .header__menu-item:hover {
+    color: {{ settings.header-drop-down-menu-color-hover }};
+}
+
+.header__submenu .header__menu-item {
+    font-size: {{ settings.header-drop-down-menu-font-size }}px;
 }
