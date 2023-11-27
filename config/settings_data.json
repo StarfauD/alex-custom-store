@@ -10,6 +10,8 @@
     "header-top-menu-color-hover": "#f9f023",
     "header-icon-color": "#ffffff",
     "header-icon-color-hover": "#f9f023",
+    "header-drop-down-menu-color": "#0b1647",
+    "header-drop-down-menu-color-hover": "#0b1647",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
